@@ -94,11 +94,15 @@ img{
     }
 }
 /* mobile */
-@media (max-width: 400px){
+@media  (max-width: 360px){
     .choise-no button{
         display: block;
     }
     button{
         margin: 0rem auto;
     }
+    .main-content{
+        position: static;
+        transform: translate(0,0);
+    } 
 }
