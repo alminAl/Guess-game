@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(255, 0, 21);
+    height: 7rem;
+    padding: 1rem;
+}
+.header-content{
+    width: 100%;
+    text-align: center;
+    color: oldlace;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+/* dash board design */
+.main{
+    min-height: calc(100vh - 7rem - 4rem);
+}
+.main-content{
+    width: 50rem;
+    box-shadow: 0px 2px 29px -8px rgba(221, 105, 51, 0.67);
+    border-radius: 0.75rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1rem;
+    color: #411f1f;
+    padding: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#count span{
+    color: rgb(255, 30, 0);
+    font-size: larger;
+}
+.choise-no button,p{
+    display: inline-block;
+}
+.choise-no p,h3{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    /* color: rgb(255, 0, 0); */
+}
+
+
+/* footer deasign */
+.footer-area{
+    background-color: #900d0d;
+    height: 5rem;
+    width: 100%;
+}
+.footer-content{
+    text-align: center;
+    padding: 1rem;
+    color: snow;
+    margin: auto;
+}
+button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(231, 46, 46);
+    color: rgb(253, 245, 230);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-color: transparent;
+    outline: none;
+    margin: 1rem auto;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 5ms;
+}
+img{
+    max-width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: thistle;
+    object-fit: cover;
+}
+
+
+@media (max-width: 800px){
+    .header-content{
+        font-size: 1.1rem;
+    }
+    .main-content{
+        width: 100%;
+    }
+}
+/* mobile */
+@media (max-width: 400px){
+    .choise-no button{
+        display: block;
+    }
+    button{
+        margin: 0rem auto;
+    }
+}

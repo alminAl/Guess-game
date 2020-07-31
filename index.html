@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Guess Game</title>
+</head>
+<body style="background-color: antiquewhite;">
+    
+    <header>
+        <div class="header-content">
+            <h1>Guess Game</h1>
+            <p>I can read your mind maximum 10 steps</p>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main-content">
+            <div class="info-dash-board">    <!--information board -->
+                <div id="count" style="visibility: hidden;"> <span></span> </div>
+                <img id="image" src="img/1.gif" alt="">
+                <h2>Please think a number in between 1 to 2000</h2>
+                <hr>
+                <button id="game-on">OK done,let's play it</button>
+            </div>
+    
+            <div class="controlar-buttons" style="display: none;">
+                <button>Yes</button>
+                <button>No</button>
+            </div>
+            
+            <div class="choise-no" style="display: none;">
+                <h3>So,</h3>
+                <button>it is gretter then mid</button>
+                <p>or</p>
+                <button>it is less then  mid</button>
+            </div>
+    
+            <div class="success" style="display: none;">
+                <button>Play Again</button>
+            </div>
+        </div>
+       
+    </section>
+    
+    <footer class="footer-area">
+        <div class="footer-content">
+            <p>&#169 by Al Amin&#8482</p> <br>
+            <p>Version: beta</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
